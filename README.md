@@ -1,25 +1,36 @@
 # Network Learning Road
 
-# 网络学习之路
-
 记录我的网络工程学习过程。
 
-## 学习方向
+My journey of learning network engineering through continuous study and practical projects.
 
-- 网络基础
-- Cisco Packet Tracer
-- Linux服务器
-- VPN技术
-- HCIA学习
 
-## 项目作品
+## Learning Direction / 学习方向
 
-持续添加：
+- Network Fundamentals 网络基础
+- TCP/IP Protocol TCP/IP协议
+- Cisco Packet Tracer Labs 网络模拟实验
+- Linux Server Linux服务器
+- VPN Technology VPN技术
+- HCIA Study HCIA学习
 
-- 局域网实验
-- 服务器部署
-- VPN远程访问
 
-## 目标
+## Projects / 项目作品
 
-成为一名网络工程师。
+🚧 Building in progress 持续建设中
+
+- [ ] Cisco Packet Tracer LAN Lab
+  小型局域网实验
+
+- [ ] Linux Server Deployment
+  Linux服务器部署
+
+- [ ] VPN Remote Access Lab
+  VPN远程访问实验
+
+
+## Goal / 目标
+
+Become a network engineer through continuous learning and practical projects.
+
+通过持续学习和项目实践，成长为一名网络工程师。
