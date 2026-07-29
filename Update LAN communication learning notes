@@ -1,0 +1,205 @@
+01-LAN-Communication/README.md
+01 LAN Communication
+01 局域网通信实验
+Objective / 实验目标
+
+Build a simple Local Area Network (LAN) using Cisco Packet Tracer.
+
+使用 Cisco Packet Tracer 搭建一个简单局域网，学习计算机之间如何通过交换机进行通信。
+
+Network Topology / 网络拓扑
+
+Network Structure:
+
+PC0 --------
+Switch -------- Server
+PC1 --------/
+
+Description:
+
+PC0, PC1 and Server are connected through a Cisco switch to build a simple LAN.
+
+PC0、PC1 和 Server 通过 Cisco 交换机连接，组成一个简单局域网。
+
+Network Devices / 网络设备
+PC (Personal Computer)
+
+A PC is used to send and receive network data.
+
+电脑用于发送和接收网络数据。
+
+Switch
+
+A switch connects multiple devices in the same LAN and forwards data between them.
+
+交换机用于连接同一个局域网中的多个设备，并负责数据转发。
+
+Server
+
+A server provides network services for other devices.
+
+服务器为其他设备提供网络服务。
+
+IP Configuration / IP地址配置
+
+Device | IP Address
+
+PC0 | 192.168.1.10
+
+PC1 | 192.168.1.20
+
+Server | 192.168.1.100
+
+Subnet Mask:
+
+255.255.255.0
+
+子网掩码：
+
+255.255.255.0
+
+Connectivity Test / 通信测试
+
+Command:
+
+ping 192.168.1.100
+
+Result:
+
+Reply received from Server.
+
+The network communication is successful.
+
+结果：
+
+PC0 成功收到 Server 回复，说明局域网通信正常。
+
+MAC Address Learning / MAC地址学习
+
+The switch automatically learns MAC addresses from connected devices.
+
+交换机会自动学习连接设备的 MAC 地址。
+
+Command:
+
+show mac address-table
+
+Purpose:
+
+Display MAC addresses and corresponding switch ports.
+
+作用：
+
+查看 MAC 地址和交换机端口之间的对应关系。
+
+Experiment Result / 实验结果
+
+The LAN communication experiment is completed successfully.
+
+实验完成：
+
+PC0 can communicate with Server.
+Switch successfully learns MAC addresses.
+LAN communication works normally.
+
+实验结果：
+
+PC0 可以与 Server 通信。
+交换机成功学习 MAC 地址。
+局域网通信正常。
+Learning Notes / 学习笔记
+
+Key Concepts:
+
+LAN
+IP Address
+Subnet Mask
+MAC Address
+Switch
+Ping
+
+核心知识：
+
+局域网
+IP 地址
+子网掩码
+MAC 地址
+交换机
+Ping 测试
+
+---
+
+# Cantonese Learning Notes / 粵語學習筆記
+
+實驗目標
+
+使用 Cisco Packet Tracer 建立一個簡單嘅局域網。
+
+了解電腦之間點樣通過交換機進行通信。
+
+網絡拓撲
+
+PC0、PC1 同 Server 通過交換機連接。
+
+形成一個簡單嘅局域網環境。
+
+網絡設備
+電腦 (PC)
+
+用嚟發送同接收網絡數據。
+
+交換機 (Switch)
+
+用嚟連接同一個網絡入面嘅多部設備。
+
+同時負責轉發數據。
+
+伺服器 (Server)
+
+為其他設備提供網絡服務。
+
+網絡設定
+
+PC0：
+
+192.168.1.10
+
+PC1：
+
+192.168.1.20
+
+Server：
+
+192.168.1.100
+
+子網遮罩：
+
+255.255.255.0
+
+通信測試
+
+使用 ping 指令測試網絡連接。
+
+結果：
+
+PC0 成功收到 Server 回覆。
+
+代表局域網通信正常。
+
+MAC 地址學習
+
+交換機會自動學習連接設備嘅 MAC 地址。
+
+指令：
+
+show mac address-table
+
+用途：
+
+查看 MAC 地址同交換機接口嘅對應關係。
+
+學習成果
+明白局域網通信流程
+明白 IP 地址用途
+明白 MAC 地址學習
+明白交換機轉發數據方式  
